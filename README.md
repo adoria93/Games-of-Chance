@@ -30,6 +30,7 @@ roulette is a game where a "ball" is spun around a wheel until it stops. For thi
 - "First"/"Second"/"Third" 2:1
 - "0"/"00" 35:1
 - Specific Number ("1" through "36") 35:1
+
 The bet you choose goes in the "guess" argument.
 
 NOTE: If you guess higher than "36" or lower than "0", the game will still run as normal, but you will always lose. A future update will correct this behaviour to force a choice that is within the range of the game.

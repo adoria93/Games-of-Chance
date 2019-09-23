@@ -24,10 +24,12 @@ cards is a game where you will be randomly assigned a card from a deck of cards.
 
 # roulette(guess, bet)
 
-roulette is a game where a "ball" is spun around a wheel until it stops. For this game, the American version of roulette is used (numbers 1-36 as well as a "0" and a "00" space). In this game, you can choose a wide variety of different bets:
-- "Odd"/"Even"
-- "First"/"Second"/"Third"
-- "0"/"00"
-- Specific Number ("1" through "36")
+roulette is a game where a "ball" is spun around a wheel until it stops. For this game, the American version of roulette is used (numbers 1-36 as well as a "0" and a "00" space). Currently supported bets, each with different payouts, are:
+- "Odd"/"Even" 1:1
+- "Red"/"Black" 1:1
+- "First"/"Second"/"Third" 2:1
+- "0"/"00" 35:1
+- Specific Number ("1" through "36") 35:1
+The bet you choose goes in the "guess" argument.
 
 NOTE: If you guess higher than "36" or lower than "0", the game will still run as normal, but you will always lose. A future update will correct this behaviour to force a choice that is within the range of the game.

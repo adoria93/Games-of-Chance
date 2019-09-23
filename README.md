@@ -10,6 +10,8 @@ You start with 1000 credits.
 
 In the future, I'd like to have it set up to where you can play the same game multiple times in a row without stopping unless you choose to. For each game, the amount you bet must be less than the total amount of credits you have. (That is, you can't bet more than you have!)
 
+Just download the .txt file and run it in your Python console.
+
 # coin_flip(guess, bet)
 
 coin_flip is a game where you have to guess if a coin will land on "Heads" or "Tails". If you guess corrrectly, you win!
